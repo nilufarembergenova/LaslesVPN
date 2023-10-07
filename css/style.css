@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 58px;
+}
+
+.header li {
+  list-style: none;
+}
+
+.header_about {
+  display: flex;
+  gap: 40px;
+  color: #4F5665;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+
+}
+
+
+.header_sign {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+}
+
+.header_Sign_in {
+  color: #0B132A;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: none;
+  border: none;
+  outline: none;
+
+
+}
+
+.header_btn {
+  border-radius: 50px;
+  border: 1px solid #F53855;
+  color: #F53855;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 150px;
+  height: 45px;
+  background-color: #FFF;
+  outline: none;
+
+}
+
+.hero {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 103px;
+}
+
+.hero_title {
+  text-align: initial;
+  color: #0B132A;
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+  max-width: 555px;
+  padding-top: 129px;
+}
+
+.hero_text {
+  color: #4F5665;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 555px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: initial;
+}
+
+.btn_group {
+  text-align: initial;
+  outline: none;
+}
+
+
+.hero_btn {
+  border-radius: 10px;
+  background: #F53838;
+  border: none;
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 25px;
+  width: 250px;
+  height: 60px;
+  box-shadow: rgba(245, 56, 56, 0.35);
+  outline: none;
+}
+
+.btn_group:hover {
+  outline: none;
+}
+
+.hero_btn:hover {
+  outline: none;
+}
+
+.header_Sign_in:hover {
+  outline: none;
+}
+
+.hero_img {
+  padding-top: 129px;
+}
+
+.logo {
+  width: 1140px;
+  height: 200px;
+  border-radius: 10px;
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 67px;
+  gap: 95px;
+  box-shadow: ;
+}
+
+.logo_title {
+  color: #0B132A;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.logo_text {
+  color: #4F5665;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.logo_wappar {
+  display: flex;
+  gap: 36px;
+}
+
+.logo_border {
+  border: 1px solid #EEEFF2;
+  stroke-width: 2px;
+}
